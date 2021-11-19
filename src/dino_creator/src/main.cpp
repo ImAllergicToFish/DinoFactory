@@ -68,10 +68,10 @@ int main(int argc, char** argv) {
 
     g_service = nh.advertiseService("dino_creator", wordToDino);
 
-    g_publisher = nh.advertise<std_msgs::String>("topic", 32);
-    ROS_INFO("Create publisher (topic)");
+    g_publisher = nh.advertise<std_msgs::String>("dino_topic", 32);
+    ROS_INFO("Create publisher (dino_topic)");
 
-    g_subscriber = nh.subscribe("topic", 32, createDinoFact);
+    g_subscriber = nh.subscribe("dino_topic", 32, createDinoFact);
     ROS_INFO("Create subscriber");
 
     ros::spin();
