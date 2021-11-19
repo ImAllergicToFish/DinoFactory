@@ -1,0 +1,8 @@
+prefix=/home/neleps/DinoFactory/install
+
+Name: dino_creator
+Description: Description of dino_creator
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/neleps/DinoFactory/devel
+
+Name: dino_msg_srv
+Description: Description of dino_msg_srv
+Version: 0.0.0
+Cflags: -I/home/neleps/DinoFactory/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

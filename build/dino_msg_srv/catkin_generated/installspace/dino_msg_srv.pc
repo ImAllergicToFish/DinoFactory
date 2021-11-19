@@ -1,0 +1,8 @@
+prefix=/home/neleps/DinoFactory/install
+
+Name: dino_msg_srv
+Description: Description of dino_msg_srv
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+dino_creator:dino_msg_srv
+-DCATKIN_DEVEL_PREFIX=/home/neleps/DinoFactory/devel -DCMAKE_INSTALL_PREFIX=/home/neleps/DinoFactory/install -G Unix Makefiles
